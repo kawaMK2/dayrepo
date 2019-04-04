@@ -1,13 +1,11 @@
-<template>
-  $END$
+<template lang="pug">
+  div
 </template>
 
 <script>
-  export default {
-    name: 'CommentInput',
-  }
+export default {
+  name: 'CommentInput'
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
