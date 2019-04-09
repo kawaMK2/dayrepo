@@ -1,14 +1,7 @@
 <template lang="pug">
-  div
-    div(v-if="value===null||value===undefined").btn-group.yesno
-      label(@click="setYes").btn.btn-outline-secondary.selection はい
-      label(@click="setNo").btn.btn-outline-secondary.selection いいえ
-    div(v-else-if="value").btn-group.yesno
-      label(@click="setYes").btn.btn-outline-secondary.selection.active はい
-      label(@click="setNo").btn.btn-outline-secondary.selection いいえ
-    div(v-else).btn-group.yesno
-      label(@click="setYes").btn.btn-outline-secondary.selection はい
-      label(@click="setNo").btn.btn-outline-secondary.selection.active いいえ
+  div.btn-group.yesno
+    label(@click="setYes" :class="{active: value===true}").btn.btn-outline-secondary.selection はい
+    label(@click="setNo" :class="{active: value===false}").btn.btn-outline-secondary.selection いいえ
 </template>
 
 <script>
@@ -37,6 +30,7 @@ export default {
 .yesno {
   width: 150px;
 }
+
 .selection {
   white-space: nowrap;
   padding-left: 0;

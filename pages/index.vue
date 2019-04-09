@@ -5,6 +5,12 @@
 
     div.row
       div.col-md-7
+        div(v-for="format in file").card
+          div.card-header
+            h5.card-title {{format.title}}
+          div(v-for="category in format.questions").card-body
+            h6.card-subtitle {{category.title}}
+
         div.card
           div.card-header
             h5.card-title ▼1：今日1日の自分と向き合って振り返って、内省してみよう
@@ -22,6 +28,7 @@
 
 <script>
 import YesNoInput from '~/Components/YesNoInput.vue'
+import fiveReflections from '../assets/json/five_reflections'
 
 export default {
   components: {
@@ -29,6 +36,7 @@ export default {
   },
   data: function() {
     return {
+      file: fiveReflections,
       five_reflections: {
         sincerity: null,
         no_ashamed_to_word: null,

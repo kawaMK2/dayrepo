@@ -1,0 +1,175 @@
+[
+  {
+    "title": "五省フォーマット",
+    "type": "format",
+    "questions": [
+      {
+        "title": "▼１：今日１日の自分とむき当て振り返って、内省してみよう",
+        "type": "category",
+        "questions": [
+          {
+            "title": "１）真心を持って人に赤sしていたか",
+            "type": [
+              "level",
+              "text"
+            ]
+          },
+          {
+            "title": "２）嘘をつかず、言行不一致な点はなかったか",
+            "type": [
+              "level",
+              "text"
+            ]
+          },
+          {
+            "title": "３）十分な精神力を持って、人や仕事、困難に向き合えたか",
+            "type": [
+              "level",
+              "text"
+            ]
+          },
+          {
+            "title": "４）難を乗り越えるために十分に努力し本気で汗をかいたか",
+            "type": [
+              "level",
+              "text"
+            ]
+          },
+          {
+            "title": "５）怠けたりさぼったりせず、最後まで真剣に取り組んだか",
+            "type": [
+              "level",
+              "text"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "▼２：今日の経験を振り返って明日へつなげて自走しよう",
+        "type": "category",
+        "questions": [
+          {
+            "title": "経験したこと、起こったこと（具体的事実）",
+            "type": [
+              "longtext"
+            ]
+          },
+          {
+            "title": "経験の振り返り（何がそうさせたのか、なぜそうなったのか）",
+            "type": [
+              "longtext"
+            ]
+          },
+          {
+            "title": "経験から学べたこと（抽象化）",
+            "type": [
+              "longtext"
+            ]
+          },
+          {
+            "title": "この学びを次にどう活かすか（実践）",
+            "type": [
+              "longtext"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "▼３：Purpleの貢献価値を振り返ろう（はい or いいえ）",
+        "type": "category",
+        "questions": [
+          {
+            "title": "＜自立＞",
+            "type": "subcategory",
+            "questions": [
+              {
+                "title": "時間管理内に業務遂行できたか",
+                "type": [
+                  "yesno"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "＜チームの力＞",
+            "type": "subcategory",
+            "questions": [
+              {
+                "title": "相互フィードバックできたか",
+                "type": [
+                  "yesno"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "オリジナリティ",
+            "type": [
+              "subcategory"
+            ],
+            "questions": [
+              {
+                "title": "行動基準を満たせたか",
+                "type": [
+                  "yesno"
+                ]
+              },
+              {
+                "title": "約束を守る",
+                "type": [
+                  "subsubcategory"
+                ],
+                "questions": [
+                  {
+                    "title": "出社時刻や会議の開始など時間を守れたか",
+                    "type": [
+                      "yesno"
+                    ]
+                  },
+                  {
+                    "title": "業務の期日を守れたか",
+                    "type": [
+                      "yesno"
+                    ]
+                  },
+                  {
+                    "title": "事前合意したクオリティを守れたか",
+                    "type": [
+                      "yesno"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "プラス受信をする",
+                "type": [
+                  "subsubcategory"
+                ],
+                "questions": [
+                  {
+                    "title": "出来事を冷静に/前向きに受け止められたか",
+                    "type": [
+                      "yesno"
+                    ]
+                  },
+                  {
+                    "title": "相手がどのようなことを言ってもそれを前向きに受け止められたか",
+                    "type": [
+                      "yesno"
+                    ]
+                  },
+                  {
+                    "title": "物事を成長の機会と捉えたか",
+                    "type": [
+                      "yesno"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
